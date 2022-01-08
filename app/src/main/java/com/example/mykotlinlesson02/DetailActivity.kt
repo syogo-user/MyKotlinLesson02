@@ -14,12 +14,16 @@ class DetailActivity: AppCompatActivity() {
 
         val title = intent.getStringExtra("title")
         val description = intent.getStringExtra("description")
+        val date = intent.getStringExtra("date")
 
         val detailTitle = findViewById<TextView>(R.id.detailTitle)
         detailTitle.text = title
 
         val detailDescription = findViewById<TextView>(R.id.detailDescription)
         detailDescription.text = description
+
+        val detailDate = findViewById<TextView>(R.id.detailDate)
+        detailDate.text = date
 
         val closeButton = findViewById<Button>(R.id.closeButton)
         closeButton.setOnClickListener {

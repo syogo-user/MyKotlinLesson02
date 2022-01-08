@@ -41,7 +41,13 @@
             android:layout_weight="1"
             android:text="@string/default_description"
             android:textSize="24sp"/>
-
+        <TextView
+            android:id="@+id/cellDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/default_date"
+            android:textSize="24sp" />
 
     </LinearLayout>
 

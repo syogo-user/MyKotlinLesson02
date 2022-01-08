@@ -7,5 +7,8 @@
 
     <string name="default_title">Title</string>
     <string name="default_description">Description</string>
+    <string name="default_date">Date</string>
+    <string name="cell_date">日付</string>
     <string name="close_button">閉じる</string>
+
 </resources>

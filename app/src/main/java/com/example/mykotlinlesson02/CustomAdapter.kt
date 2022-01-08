@@ -23,11 +23,13 @@ class CustomAdapter(private val items: List<Item>,private val listener: ItemSele
         val item = items[position]
         holder.cellTitle.text = item.title
         holder.cellDescription.text = item.description
+        holder.cellDate.text = item.date
     }
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val cellTitle = view.cellTitle!!
         val cellDescription = view.cellDescription!!
+        val cellDate = view.cellDate!!
     }
 
     interface ItemSelectionListener {
